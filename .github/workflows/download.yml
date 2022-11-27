@@ -18,10 +18,10 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v2.0.0
         with:
-          python-version: '3.10.6'
+          python-version: '3.8'
       - name: Install requirements
         run: pip install -r requirements.txt
-      - name: Run Scraper
+      - name: download 
         run: python bin/download.py
       - name: Commit and push if it changed
         run: |-
