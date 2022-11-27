@@ -20,7 +20,7 @@ for incidente in incidenti:
     data['lon'] = data.geometry.x
     data['lat'] = data.geometry.y
     name = incidente.replace("Cartografia:view_","")
-    data.to_file(".." + os.sep + "data" + os.sep + name + ".geojson",driver="GeoJSON")
+    data.to_file("data" + os.sep + name + ".geojson",driver="GeoJSON")
     del data['geometry']
-    data.to_csv(".." + os.sep + "data" + os.sep + name + ".csv",index=False)
+    data.to_csv("data" + os.sep + name + ".csv",index=False)
 
