@@ -1,2 +1,2 @@
-# incidenti_bolzano
+# incidenti bolzano
 I dati degli incidenti del Comune di Bolzano recuperati dal server WFS
