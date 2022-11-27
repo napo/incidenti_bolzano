@@ -1,0 +1,4 @@
+geopandas==0.12.1
+pygeos==0.13
+xlrd==2.0.1
+owslib==0.27.2
