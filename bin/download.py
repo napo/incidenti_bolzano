@@ -23,4 +23,5 @@ for incidente in incidenti:
     data.to_file("data" + os.sep + name + ".geojson",driver="GeoJSON")
     del data['geometry']
     data.to_csv("data" + os.sep + name + ".csv",index=False)
+    data.to_excel(dest + os.sep + name + ".xlsx",index=False)
 
