@@ -21,6 +21,17 @@ for incidente in incidenti:
     data['ANNOINC'] = data['ANNOINC'].astype(int)
     data['NRINCID'] = data['NRINCID'].astype(int)
     data.DTINCID =data.DTINCID.apply(lambda x: x.replace(' 00:00:00+00:00',""))
+    try:
+        data['NR_VEICOLI'] = data['NR_VEICOLI'].astype(int)
+        data['NR_PEDONI'] = data['NR_PEDONI'].astype(int)
+        data['NR_VEICOLI'] = data['NR_VEICOLI'].astype(int)
+        data['ILLESI'] = data['ILLESI'].astype(int)
+        data['FERITI'] = data['FERITI'].astype(int)
+        data['MORTI'] = data['MORTI'].astype(int)  
+        data['ID_VIA_1'] = data['ID_VIA_1'].astype(int)
+        data['ID_VIA_2'] = data['ID_VIA_2'].astype(int)
+    except:
+        pass
     data['lon'] = data.geometry.x
     data['lat'] = data.geometry.y
     data.fillna("informazione non disponibile",inplace=True)
