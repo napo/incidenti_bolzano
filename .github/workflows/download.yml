@@ -2,7 +2,7 @@ name: download
 
 on:
   schedule:
-    - cron: "* 0-23/4 * * *"
+    - cron: "5 4 * * *"
   workflow_dispatch:
 
 env:
