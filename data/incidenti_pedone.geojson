@@ -1,5 +1,6 @@
 {
 "type": "FeatureCollection",
+"name": "incidenti_pedone",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
 { "type": "Feature", "properties": { "gml_id": "view_incidenti_pedone.2014178", "NRINCID": 178, "ANNOINC": 2014, "DATA": "26-02-2014", "TPINCID": "2", "TIPO_INCIDENTE": "CON FERITI", "VIA1": "VIA GIUSEPPE GARIBALDI / GIUSEPPE-GARIBALDI-STRASSE", "CIVICO1": "informazione non disponibile", "NATURA": "INVESTIMENTO DI PEDONE", "NATURA_DE": "EIN FUSSGÄNGER WURDE ANGEFAHREN", "NAT_STRADA": "STRADA URBANA", "LIMITEV": 40.0, "PARTIC_STR": "INTERSEZIONE REGOLATA CON SEMAFORO", "TIPO_STRADA": "UNICA CARREGGIATA A DOPPIO SENSO", "PAVIMENTAZIONE": "ASFALTATA", "SEGNALETICA": "ORIZZONTALE VERTICALE", "ILLUMINAZIONE": "BUONA", "CONDIZIONI": "SENZA ANOMALIE", "FONDO_STRAD": "BAGNATO", "COND_METEO": "PIOGGIA", "COND_TRAFFIC": "INTENSO", "VISIBILITA": "GIORNO LUCE NATURALE", "DTINCID": "2014-02-26", "DOW": "3", "VIA2": "informazione non disponibile", "CIVICO2": "informazione non disponibile", "lon": 11.355460144009413, "lat": 46.495060612474028 }, "geometry": { "type": "Point", "coordinates": [ 11.355460144009413, 46.495060612474028 ] } },
